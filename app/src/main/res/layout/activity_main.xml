@@ -9,10 +9,38 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Student+"
+        android:textColor="#000000"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <Button
+        android:id="@+id/button_add_student"
+        android:layout_width="140dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="504dp"
+        android:backgroundTint="#00B7C8"
+        android:fontFamily="sans-serif"
+        android:text="Ajouter un élève"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_see_result"
+        android:layout_width="140dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="388dp"
+        android:backgroundTint="#00B7C8"
+        android:fontFamily="sans-serif"
+        android:text="Voir les notes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
